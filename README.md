@@ -22,8 +22,8 @@ The program passed all SonarQube security checks for C++.
 - **Full character set control** with `-nl`, `-nu`, `-nd`, `-ns`
 
 ### Verified platforms
-##It works and builds reliably on Windows; code for macOS and Linux has been added, but builds and functionality haven't been verified.
-##Anyway, who knows-test it out and let me know in the issues.
+It works and builds reliably on Windows; code for macOS and Linux has been added, but builds and functionality haven't been verified.
+Anyway, who knows-test it out and let me know in the issues.
 
 ### Linux
 
