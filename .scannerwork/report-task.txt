@@ -1,6 +1,0 @@
-projectKey=pass_gen_C_
-serverUrl=http://127.0.0.1:9000
-serverVersion=26.7.0.124771
-dashboardUrl=http://127.0.0.1:9000/dashboard?id=pass_gen_C_
-ceTaskId=5a305f27-b13b-43d9-b37f-d559b7812a16
-ceTaskUrl=http://127.0.0.1:9000/api/ce/task?id=5a305f27-b13b-43d9-b37f-d559b7812a16
