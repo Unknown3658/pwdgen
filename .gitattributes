@@ -1,0 +1,11 @@
+*.exe text eol=crlf
+*.lib binary
+*.so binary
+*.dylib binary
+*.pdb binary
+*.vcxproj binary
+*.vcxproj.filters binary
+*~ binary
+.gitignore binary
+LICENSE binary
+README.md text eol=lf

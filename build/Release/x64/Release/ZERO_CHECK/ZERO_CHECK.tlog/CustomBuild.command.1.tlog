@@ -1,0 +1,10 @@
+^D:\AI\VIBECODING\PASSWORD_GENERATOR_C++\BUILD\RELEASE\CMAKEFILES\4862D5C2DA1092975AE911A82C7BDCBD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/AI/vibecoding/password_generator_C++ -BD:/AI/vibecoding/password_generator_C++/build/Release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/AI/vibecoding/password_generator_C++/build/Release/pwdgen.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
