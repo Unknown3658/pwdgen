@@ -52,17 +52,6 @@ cmake --build .
 c_test
 ```
 
-
-## Testing
-
-```bash
-cd build
-ctest
-# or with output:
-ctest --output-on-failure
-```
-
-
 ## Requirements
 
 Language Environment
