@@ -1,4 +1,4 @@
-# pwdgen — Multi-platform CSPRNG Password Generator
+# pwdgen — Multi-platform Password Generator
 Рassword generator with no external dependencies.
 
 ## Disclaimer
