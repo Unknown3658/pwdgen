@@ -1,5 +1,5 @@
-# pwdgen — Multi-platform Password Generator
-Рassword generator with no external dependencies.
+# pwdgen — Multi-platform CSPRNG Password Generator
+Cryptographically secure password generator with no external dependencies.
 
 ## Disclaimer
 I am not a developer, nor have I ever been one.
