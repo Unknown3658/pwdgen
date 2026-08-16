@@ -1,4 +1,4 @@
-# pwdgen — Multi-platform CSPRNG Password Generator
+# pwdgen - Multi-platform CSPRNG Password Generator
 Password generator with no external dependencies.
 
 ## Disclaimer
@@ -11,10 +11,10 @@ The program passed all SonarQube security checks for C++.
 ## Development Principles
 - **Confidentiality**: No logging, no history. A password is generated and disappears.
 - **Integrity**: Cryptographically secure randomness only. No pseudo-random generators.
-- **Availability**: One run — one password.
+- **Availability**: One run - one password.
 
 ## Features
-- **CSPRNG only** — no `std::rand`, `mt19937`, or seed-based generators
+- **CSPRNG only** - no `std::rand`, `mt19937`, or seed-based generators
 - **Platform-specific entropy sources:**
   - Windows: `BCryptGenRandom`
   - macOS: `SecRandomCopyBytes`
@@ -23,7 +23,7 @@ The program passed all SonarQube security checks for C++.
 
 ### Verified platforms
 ##It works and builds reliably on Windows; code for macOS and Linux has been added, but builds and functionality haven't been verified.
-##Anyway, who knows—test it out and let me know in the issues.
+##Anyway, who knows-test it out and let me know in the issues.
 
 ### Linux
 
@@ -79,7 +79,7 @@ Development Environment
 
 | Flag | Description | Default |
 |------|-------------|---------|
-| `-h, --help` | Show this help message | — |
+| `-h, --help` | Show this help message | - |
 | `-l N`| Password length (16 ≤ N ≤ 256) | 16 |
 | `-c M`| Number of passwords (M ≥ 1) | 1 |
 | `-nl` | Exclude lowercase letters | enabled |
@@ -112,7 +112,7 @@ pwdgen -l 24 -ns
 
 ## License
 
-MIT License — see [LICENSE](LICENSE)
+MIT License - see [LICENSE](LICENSE)
 
 
 ## Architecture
