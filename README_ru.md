@@ -52,15 +52,6 @@ cmake --build .
 c_test
 ```
 
-## Тестирование
-
-```bash
-cd build
-cmake --test
-# или с выводом:
-cmake --test --output-on-failure
-```
-
 ## Требования 
 
 Языковая среда
