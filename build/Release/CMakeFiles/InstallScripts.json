@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"D:/AI/vibecoding/password_generator_C++/build/Release/cmake_install.cmake",
-		"D:/AI/vibecoding/password_generator_C++/build/Release/tests/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
